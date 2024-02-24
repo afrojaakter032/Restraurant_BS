@@ -16,83 +16,76 @@
 </head>
 <body>
   <header class="header">
-    <div class="container-fluid">
-        <div class="navbar-wrap d-flex justify-content-between align-items-center">
-            <!-- search btn starts here -->
-            <div>
-                <button class="btn btn-circle">
-                    <i class="fas fa-search"></i>
-                </button>
+    <section class="hero-section">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
             </div>
-
-            <div class="menubar-icon navbar-toggler">
-                <button class="btn btn-circle">
-                    <i class="fas fa-bars"></i>
-                </button>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/images/slide3.jpg" class="d-block w-100" alt="slide1">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/slider/hero-img-2-2.jpg" class="d-block w-100" alt="slide2">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/images/slider/hero-img-2-3.jpg" class="d-block w-100" alt="slide3">
+              </div>
             </div>
-            <!-- search btn ends here -->
-            <nav class="navbar d-flex justify-content-center align-items-center">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 
-                <div class="navbar-menu navbar-left">
-                    <!-- Left menu items here -->
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Home <i class="fas fa-chevron-down"></i></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html" target="_blank">About Us <i class="fas fa-chevron-down"></i></a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="menuDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Menu <i class="fas fa-chevron-down"></i>
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="menuDropdown">
-                                <li><a class="dropdown-item" href="#">Menu 1</a></li>
-                                <li><a class="dropdown-item" href="#">Menu 2</a></li>
-                                <li><a class="dropdown-item" href="#">Menu 3</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="navbar-center">
-                    <!-- Image or logo here -->
-                    <img src="./assets/images/img1-removebg-preview.png" alt="Logo" height="100px" width="100px">
-                </div>
-
-                <div class="navbar-menu navbar-right">
-                    <!-- Right menu items here -->
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Blog <i class="fas fa-chevron-down"></i></a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Pages <i class="fas fa-chevron-down"></i>
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="pagesDropdown">
-                                <li><a class="dropdown-item" href="#">Page 1</a></li>
-                                <li><a class="dropdown-item" href="#">Page 2</a></li>
-                                <li><a class="dropdown-item" href="#">Page 3</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-
-            <!-- cart btn starts here -->
-            <div>
-                <button class="btn btn-circle">
-                    <i class="fas fa-shopping-cart"></i>
-                    <span class="badge">0</span>
-                </button>
+    </section>
+    <section class="navbar-section">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand fs-2" href="#">PLATO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div  id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">TODAY'S SPECIAL</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">MENU</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">RESERVATION</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">GALLERY</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link">CONTACT</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link">BLOG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"><i class="fa-solid fa-magnifying-glass"></i></a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <!-- cart btn ends here -->
-        </div>
-    </div>
+          </nav>
+    </section>
 </header>
 
     
