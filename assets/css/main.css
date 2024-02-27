@@ -78,11 +78,25 @@ p{
 }
 
 .todays-special-section img {
-    max-width: 100%
-
+    max-width: 100%;
+    height: 300px;
+    
+    
 }
 .card {
-    max-height: 100%;
+    max-width: 100%;
+    height: 300px;
+
+    
+}
+.card span {
+    color: var(--primary);
+}
+.card:hover {
+    background-color: var(--primary);
+}
+.card:hover span {
+    color: #fff;
 }
 
 
