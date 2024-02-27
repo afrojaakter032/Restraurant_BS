@@ -18,6 +18,10 @@ html {
     margin-top: 150px !important;
 }
 
+.pt-4 {
+    padding-top: 100px !important;
+}
+
 p{
     font-size: 15px;
     color: #999999;
@@ -61,6 +65,24 @@ p{
 /* Restorans section */
 .text-color {
     color: var(--primary);
+}
+
+/* todays spection section */
+
+.todays-special-section {
+    background-color: #333333;
+}
+
+.todays-special-section h1 {
+    color: #fff;
+}
+
+.todays-special-section img {
+    max-width: 100%
+
+}
+.card {
+    max-height: 100%;
 }
 
 
