@@ -121,4 +121,10 @@ img {
     color: #000;
 }
 
+/* our menu section starts here */
+
+.menu-btn {
+    background-color: var(--primary);
+    border: none;
+}
 
