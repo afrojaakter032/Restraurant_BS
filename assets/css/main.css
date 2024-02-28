@@ -14,11 +14,17 @@ html {
     font-family: 'Roboto', sans-serif;
     font-family: "Rubik", sans-serif;
 }
-.mt-5 {
+.mt-150 {
     margin-top: 150px !important;
 }
 
-.pt-4 {
+@media only screen and (max-width: 768px) {
+    .mt-150 {
+        margin-top: 50px !important;
+    }
+}
+
+.pt-100 {
     padding-top: 100px !important;
 }
 
@@ -30,6 +36,9 @@ p{
     line-height: 24px;
     margin: 0 0 10px;
 }
+img {
+    max-width: 100%;
+}
 
 /* header section */
 
@@ -38,6 +47,10 @@ p{
     color: #999999;
     height: auto;
     
+}
+
+.navbar-toggler-icon {
+    color: #fff;
 }
 
 .nav-link {
@@ -78,18 +91,23 @@ p{
 }
 
 .todays-special-section img {
-    max-width: 100%;
-    height: 300px;
-    
-    
+    height: 280px;
+    width: 100%;
 }
-.card {
-    max-width: 100%;
-    height: 300px;
-
-    
+@media only screen and (max-width: 768px) {
+    .todays-special-section img {
+        height: 400px;
+    }
+    .todays-special-section .card {
+        height: 400px;
+    }
 }
-.card span {
+.todays-special-section .card {
+    max-width: 100%;
+    height: 280px;
+    border-radius: 0;
+}
+.todays-special-section .card span {
     color: var(--primary);
 }
 .card:hover {
@@ -97,6 +115,10 @@ p{
 }
 .card:hover span {
     color: #fff;
+}
+
+.card:hover .text-dark {
+    color: #000;
 }
 
 
