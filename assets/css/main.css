@@ -126,5 +126,17 @@ img {
 .menu-btn {
     background-color: var(--primary);
     border: none;
+    color: #fff;
+}
+.lunch-btn {
+    border: none !important;
+
+}
+
+/* reservation section starts here */
+
+.reservation-section {
+    background: url(../images/ban4.jpg);
+    background-size: cover;
 }
 
