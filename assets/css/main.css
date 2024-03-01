@@ -138,5 +138,21 @@ img {
 .reservation-section {
     background: url(../images/ban4.jpg);
     background-size: cover;
+    
+}
+.reservation-section h1 {
+    color: #fff;
+}
+
+.form-label {
+    color: #fff;
+}
+.form-btn {
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+.form-btn:hover {
+    background-color: var(--primary);
+    color: #fff;
 }
 
