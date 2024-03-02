@@ -40,6 +40,10 @@ img {
     max-width: 100%;
 }
 
+.text-primary {
+    color: var(--primary) !important;
+}
+
 /* header section */
 
 .navbar-section {
@@ -132,7 +136,10 @@ img {
     border: none !important;
 
 }
-
+.menu-item-card {
+    border-bottom: 1px dashed #e5e5e5;
+    padding-bottom: 15px;
+}
 /* reservation section starts here */
 
 .reservation-section {
@@ -156,3 +163,43 @@ img {
     color: #fff;
 }
 
+/* our team section */
+
+.our-team-section hr {
+    width: 30px;
+}
+
+/* experience section */
+
+.experience-section {
+    background: url(../images/ban2.jpg);
+    background-size: cover;
+}
+
+.experience-section span {
+    color: var(--primary);
+}
+
+/* our-gallery section */
+
+.gallery-nav-bar a {
+    color: #999999;
+    text-decoration: none;
+}
+
+.gallery-nav-bar a:hover {
+    color: var(--primary);
+}
+.gallery-nav-bar a.active {
+    color: var(--primary) !important;
+}
+
+/* footer section */
+.get-in-touch-section {
+    background: url(../images/ban3.jpg);
+
+}
+
+.get-in-touch-section h2 {
+    color: #fff;
+}
