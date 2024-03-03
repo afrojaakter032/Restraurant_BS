@@ -224,3 +224,14 @@ img {
     border: 1px solid #e5e5e5;
 
 }
+.btn-social-icon i {
+    color: #999999;
+}
+.btn-social-icon:hover {
+    background-color: var(--primary);
+}
+
+/* footer bottom section */
+.footer-bottom-section a {
+    text-decoration: none;
+}
