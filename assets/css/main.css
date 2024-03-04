@@ -168,7 +168,7 @@ img {
 
 /* our team section */
 
-.our-team-section hr {
+.our-team-section .hr {
     width: 30px;
 }
 
@@ -179,7 +179,7 @@ img {
     background-size: cover;
 }
 
-.experience-section span {
+.experience-section .counter {
     color: var(--primary);
 }
 
@@ -197,10 +197,43 @@ img {
     color: var(--primary) !important;
 }
 
+.gallery-item {
+    position: relative;
+    overflow: hidden;
+}
+.gallery-item img {
+    transition: 0.5s;
+}
+
+.gallery-overlay {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+}
+
+.gallery-overlay h5 {
+    color: var(--primary);
+    
+}
+.gallery-item:hover .gallery-overlay {
+    opacity: 1;
+    
+}
+.gallery-item:hover img {
+    transform: scale(1.5);
+}
+
 /* footer section */
 .get-in-touch-section {
     background: url(../images/ban3.jpg);
-
 }
 
 .get-in-touch-section h2 {
@@ -212,8 +245,6 @@ img {
 }
 .get-in-touch-section .send-btn {
     background-color: 1px solid #e5e5e5;
-
-
 }
 .get-in-touch-section .send-btn:hover {
     background-color: var(--primary);
