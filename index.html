@@ -258,16 +258,16 @@
             <div class="col-md-12">
                 <ul class="nav nav-pills mb-3 d-flex justify-content-center align-items-center gap-2" id="pills-tab" role="tablist">
                     <li class="nav-item menu-nav-item" role="presentation">
-                      <button class="nav-link btn-lunch" id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch" type="button" role="tab" aria-controls="pills-lunch" aria-selected="true">Lunch</button>
+                      <button class="nav-link active" id="pills-lunch-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch" type="button" role="tab" aria-controls="pills-lunch" aria-selected="true">Lunch</button>
                     </li>
                     <li class="nav-item menu-nav-item" role="presentation">
-                      <button class="nav-link" id="pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-dinner" type="button" role="tab" aria-controls="pills-dinner" aria-selected="false">Dinner</button>
+                      <button class="nav-link" id="pills-dinner-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch" type="button" role="tab" aria-controls="pills-dinner" aria-selected="false">Dinner</button>
                     </li>
                     <li class="nav-item menu-nav-item" role="presentation">
-                      <button class="nav-link" id="pills-desserts-tab" data-bs-toggle="pill" data-bs-target="#pills-desserts" type="button" role="tab" aria-controls="pills-desserts" aria-selected="false">Desserts</button>
+                      <button class="nav-link" id="pills-desserts-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch" type="button" role="tab" aria-controls="pills-desserts" aria-selected="false">Desserts</button>
                     </li>
                     <li class="nav-item menu-nav-item" role="presentation">
-                      <button class="nav-link" id="pills-drinks-tab" data-bs-toggle="pill" data-bs-target="#pills-drinks" type="button" role="tab" aria-controls="pills-drinks" aria-selected="false">Drinks</button>
+                      <button class="nav-link" id="pills-drinks-tab" data-bs-toggle="pill" data-bs-target="#pills-lunch" type="button" role="tab" aria-controls="pills-drinks" aria-selected="false">Drinks</button>
                     </li>
                   </ul>
             </div>
@@ -277,8 +277,9 @@
                 <div class="row mt-3 p-5">
                     <div class="col-md-6">
                         <div class="d-flex gap-3 menu-item-card">
-                            <div>
+                            <div class="position-relative">
                                 <img src="./assets/images/t1.jpg" alt="image">
+                                <div class="menu-bedge">New</div>
                             </div>
                             <div class="w-100">
                                 <h4>Roasted Steak Roulade</h4>
@@ -381,7 +382,15 @@
                     </div>
                 </div>
             </div>
+            <div class="tab-pane fade" id="pills-lunch" role="tabpanel" aria-labelledby="pills-dinner-tab" tabindex="0">
+            </div>
+            <div class="tab-pane fade" id="pills-lunch" role="tabpanel" aria-labelledby="pills-dinner-tab" tabindex="0">
+            </div>
+            <div class="tab-pane fade" id="pills-lunch" role="tabpanel" aria-labelledby="pills-dinner-tab" tabindex="0">
+            </div>
+
         </div>
+        
     </div>
   </section>
   <!-- our menu section ends here -->
