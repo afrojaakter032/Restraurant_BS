@@ -2,9 +2,7 @@
     --primary: #F4B350;
     --animate-delay: 2s;
 }
-/* :root {
-    --animate-delay: 2s;
-  } */
+
 
 html {
     scroll-behavior: smooth;
@@ -49,6 +47,31 @@ img {
 
 /* header section */
 
+/* hero section */
+.carousel-inner {
+    position: relative;
+}
+.hero-section-overlay {
+    position: absolute;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+.hero-text h1 {
+    color: #fff;
+    font-family: "Alex Brush", cursive;
+    font-size: 72px;
+}
+.hero-text p {
+    color: #fff;
+}
 .navbar-section {
     background-color: #000 !important;
     color: #999999;
@@ -130,15 +153,21 @@ img {
 
 /* our menu section starts here */
 
-.menu-btn {
+/* .menu-btn {
     background-color: var(--primary);
     border: none;
     color: #fff;
+} */
+.menu-nav-item .nav-link {
+    background-color: var(--primary) !important;
+    color: #fff;
+    padding: 15px;
 }
-.lunch-btn {
-    border: none !important;
 
-}
+.menu-nav-item .nav-link:focus {
+    background-color: #fff !important;
+    }
+
 .menu-item-card {
     border-bottom: 1px dashed #e5e5e5;
     padding-bottom: 15px;
