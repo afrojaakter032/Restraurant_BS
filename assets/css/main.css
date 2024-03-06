@@ -96,7 +96,29 @@ img {
 .nav-link.active {
     color: var(--primary) !important;
 }
+.modal .form {
+    position: relative;
+}
+.modal .form span {
+    position: absolute;
+    right: 17px;
+    top: 13px;
+    padding: 2px;
+    border-left: 1px solid var(--primary);
+}
+.left-pan {
+    padding-left: 7px;
+}
 
+.left-pan i {
+   padding-left: 10px;
+}
+
+.modal .form-input {
+    height: 55px;
+    text-indent: 33px;
+    border-radius: 10px;
+}
   /* discover section */
 .hr {
     display: inline-block;
@@ -141,14 +163,14 @@ img {
 .todays-special-section .card span {
     color: var(--primary);
 }
-.card:hover {
+.todays-special-section .card:hover {
     background-color: var(--primary);
 }
-.card:hover span {
+.todays-special-section .card:hover span {
     color: #fff;
 }
 
-.card:hover .text-dark {
+.todays-special-section .card:hover .text-dark {
     color: #000;
 }
 
@@ -230,6 +252,14 @@ img {
     color: var(--primary);
 }
 
+/* notice section */
+.text-notice {
+    color: #000;
+}
+.notice-section .card {
+    height: 100% !important;
+    width: 100% !important;
+}
 /* our-gallery section */
 
 .gallery-nav-bar a {
