@@ -96,6 +96,7 @@ img {
 .nav-link.active {
     color: var(--primary) !important;
 }
+
   /* discover section */
 .hr {
     display: inline-block;
